@@ -1,4 +1,4 @@
-# hotel-admin-web
+# hotel-web
 
 ## 1、项目介绍
 
