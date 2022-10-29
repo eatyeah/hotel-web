@@ -10,6 +10,7 @@ hotel-admin-web
 ├─doc 项目文档
 │  ├─sql //数据库脚本
 ├─public // 静态资源
+│  ├─images // 图片
 ├─src -- 源码
 │  ├─assets -- 静态资源
 │  ├─components -- 组件
