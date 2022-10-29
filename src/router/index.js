@@ -17,12 +17,12 @@ const routes = [
   {
     path: '/login',
     // 函数式导入，需要懒加载，因为不一定会访问，所以需要等待
-    component: () => import(/* webpackChunkName: "about" */ '../views/Login.vue')
+    component: () => import(/* webpackChunkName: "login" */ '../views/Login.vue')
   },
   {
     path: '/register',
     // 函数式导入，需要懒加载，因为不一定会访问，所以需要等待
-    component: () => import(/* webpackChunkName: "about" */ '../views/Register.vue')
+    component: () => import(/* webpackChunkName: "register" */ '../views/Register.vue')
   }
 ]
 

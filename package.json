@@ -1,9 +1,9 @@
 {
-  "name": "hotel-admin-web",
+  "name": "hotel-web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --port 9527",
+    "serve": "vue-cli-service serve --port 9000",
     "build": "vue-cli-service build"
   },
   "dependencies": {

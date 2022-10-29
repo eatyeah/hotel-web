@@ -2,7 +2,7 @@
 
 ## 1、项目介绍
 
-hotel-admin-web是一个酒店管理系统的管理页面，包含了酒店管理、客房管理、订单管理、会员管理、统计分析等功能。
+hotel-admin-web是一个酒店管理系统的客户端
 
 ## 2、项目结构
 ```
@@ -55,7 +55,7 @@ npm run build
 
 ## 5、项目访问地址
 ```
-http://localhost:9527
+http://localhost:9000
 ```
 
 ## 6、Customize configuration
