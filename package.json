@@ -1,9 +1,9 @@
 {
-  "name": "jsd2207-csmall-web-client",
+  "name": "hotel-admin-web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --port 9000",
+    "serve": "vue-cli-service serve --port 9527",
     "build": "vue-cli-service build"
   },
   "dependencies": {

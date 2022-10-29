@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue' // 静态导入，不需要懒加载，因为项目开始运行就要加载，不需要等待
+import HomeView from '../views/Home.vue' // 静态导入，不需要懒加载，因为项目开始运行就要加载，不需要等待
 
 Vue.use(VueRouter)
 
@@ -12,12 +12,12 @@ const routes = [
   {
     path: '/about',
     // 函数式导入，需要懒加载，因为不一定会访问，所以需要等待
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
     path: '/login',
     // 函数式导入，需要懒加载，因为不一定会访问，所以需要等待
-    component: () => import(/* webpackChunkName: "about" */ '../views/LoginView.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Login.vue')
   }
 ]
 
