@@ -26,7 +26,6 @@ hotel-admin-web
 ├─package-lock.json -- 依赖包版本锁定
 ├─README.md -- 项目说明
 └─vue.config.js -- vue配置文件
-
 ```
 
 ## 3、技术选型
