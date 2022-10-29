@@ -33,8 +33,8 @@ hotel-admin-web
 ```
 前端：Vue + ElementUI + Axios + Echarts
 后端：SpringBoot + MyBatis + Swagger2 + JWT + Redis + MySQL
-数据库：MySQL
 缓存：Redis
+数据库：MySQL
 ```
 
 ## 4、项目运行
