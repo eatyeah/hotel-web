@@ -1,4 +1,4 @@
-# jsd2207-csmall-web-client
+# hotel-admin-web
 
 ## Project setup
 ```
