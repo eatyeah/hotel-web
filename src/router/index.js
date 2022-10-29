@@ -10,19 +10,9 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/about',
-    // 函数式导入，需要懒加载，因为不一定会访问，所以需要等待
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  },
-  {
     path: '/login',
     // 函数式导入，需要懒加载，因为不一定会访问，所以需要等待
     component: () => import(/* webpackChunkName: "login" */ '../views/Login.vue')
-  },
-  {
-    path: '/register',
-    // 函数式导入，需要懒加载，因为不一定会访问，所以需要等待
-    component: () => import(/* webpackChunkName: "register" */ '../views/Register.vue')
   }
 ]
 
