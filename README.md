@@ -53,5 +53,10 @@ npm run serve
 npm run build
 ```
 
-## 5、Customize configuration
+## 5、项目访问地址
+```
+http://localhost:9527
+```
+
+## 6、Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
